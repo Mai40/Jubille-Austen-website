@@ -1,0 +1,200 @@
+/****** Global Styles ******/
+body {
+  color: #5e5d5e;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+/* ***** Header Styles ***** */
+.homepage-hero {
+  background: url("../img/full-background.png"), no-repeat #f9efef;
+  background-size: cover;
+  background-position: center;
+  min-height: 800px;
+}
+
+/* .homepage-hero,
+.homepage-hero .content-wrapper {
+  background: url("../img/full-background.png"), no-repeat #f9efef;
+  background-size: cover;
+  background-position: center;
+  min-height: 800px;
+} */
+
+header h1 {
+  color: #7b7e54;
+  float: left;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  padding: 65px 0 65px 25px;
+  width: 300px;
+}
+
+header h2 {
+  clear: both;
+  color: #817f80;
+  font-family: "Lora", serif;
+  font-size: 72px;
+  line-height: 80px;
+  padding: 20px 0 20px 25px;
+  width: 1000px;
+}
+
+header nav {
+  float: right;
+  padding: 75px 25px;
+  text-align: right;
+  width: 800px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #727172;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-left: 80px;
+}
+
+/* ***** About Styles ***** */
+#about .content-wrapper {
+  padding: 80px 0;
+}
+
+#about h2 {
+  font-family: "Lora", serif;
+  font-size: 36px;
+  padding-left: 50px;
+}
+
+#about p {
+  float: left;
+  font-size: 20px;
+  line-height: 40px;
+  padding: 0 50px;
+  width: 500px;
+}
+
+/* ***** Skills Styles ***** */
+#skills {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+#skills .content-wrapper {
+  padding: 115px 0;
+  background-color: #f5f5f5;
+}
+
+.skill-list {
+  float: left;
+  padding: 0 50px;
+  width: 300px;
+}
+
+#skills h2 {
+  font-family: "Lora", serif;
+  font-size: 36px;
+  padding-bottom: 40px;
+}
+
+#skills h3 {
+  font-size: 24px;
+  line-height: 36px;
+  margin: 30px 0 20px 0;
+}
+
+#skills p {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+}
+
+/* ***** Contact Styles ***** */
+#contact {
+  background-color: #f9e9e9;
+}
+
+#contact .content-wrapper {
+  padding: 110px 0;
+  background-color: #f9e9e9;
+}
+
+#contact .contact-image {
+  float: left;
+  width: 600px;
+}
+
+#contact #contact-img {
+  border: 10px #ffffff solid;
+  box-sizing: border-box;
+  height: 300px;
+  margin: 0 50px;
+  width: 500px;
+}
+
+#contact .contact-info {
+  box-sizing: border-box;
+  float: left;
+  padding-left: 100px;
+  width: 600px;
+}
+
+#contact h2 {
+  font-family: "Lora", serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+#email-header {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+
+#socialmedia-header {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 20px 0 5px 0;
+}
+
+#envelope-icon {
+  padding-right: 5px;
+}
+
+.email-address {
+  color: #5e5d5e;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#contact ul {
+  margin-top: 0;
+  padding-left: 0;
+}
+
+#contact ul img {
+  padding-right: 40px;
+}
+
+#contact ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #5e5d5e;
+  font-size: 24px;
+  line-height: 36px;
+}
